@@ -14,4 +14,4 @@ Projeto Social Tree da Rocketseat
 
 ## 📝 Sobre
 
-Esse  projeto serve de exercício em Cascading Style Sheets(CSS) e Hypertext Markup Language(HTML). A Social Tree consiste em links que redirecionam o usuário as minha redes sociais através de um link externo.
+Esse  projeto serve de exercício em Cascading Style Sheets(CSS) e Hypertext Markup Language(HTML). A Social Tree consiste em uma página responsiva com links externos que redirecionam o usuário as redes sociais . 
