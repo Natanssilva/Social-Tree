@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color:#FAF7FD ; 
+    color: #BB99DD;
+}
+
+.container{
+    width: 326px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.container>figure{
+    margin-bottom:20px ;
+}
+
+.container span{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #BB99DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container>figure>span>img{
+    width: 190px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container>figure>h2 {
+    margin: 15px 0 0;
+}
+
+.container>.my-links{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.container>.my-links a{
+    height: 49px;
+    margin: 0 5px 16px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #BB99DD;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #BB99DD;
+    font-weight: 600;
+    box-shadow: 1px 2px #BB99DD;
+}
+.container>.my-links a:hover{
+    transition: 0.5s;
+    background-color: #BB99DD;
+    color: white;  
+}
+.container>.icons{
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container>.icons>img{
+    width: 24px;
+}
